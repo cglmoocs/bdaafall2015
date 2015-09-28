@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pylab
-plt.show()
+
 Base = 110 + 30* np.random.rand(42000)
 # Base is set of observations with an expected 2800 background events  per bin
 # Note we assume here flat but in class I used a "sloping" curve that represented experiment better
