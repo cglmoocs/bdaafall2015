@@ -172,6 +172,7 @@ Challenge tasks (Extra points)
    - Submit screenshot images of your terminal executing Java or Python code on FutureSystems
 * Run `NumPyTutorial <https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/IPythonFiles/NumPyTutorial.ipynb>`_ Python on IPython Notebook (+ 5%)
    - Submit screentshot images of your web browser executing NumPyTutorial on FutureSystems
+* Tips: See `tutorials for Big Data Applications and Analytics Shell on FutureSystems <http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/index.html>`_
 
 Preview Course Examples
 -------------------------------------------------------------------------------
