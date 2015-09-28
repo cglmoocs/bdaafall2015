@@ -1,0 +1,35 @@
+Steps for Installing Apache Mahout
+
+1.	Prerequisites:
+•	Java 1.6 or Later
+•	Maven 
+2.	Installing Java :
+•	Covered in introduction to Java course
+3.	Installing Maven:
+•	Download latest version of Maven from http://maven.apache.org/download.cgi
+•	Extract the zip file to desired location
+•	Set the below environment variables	
+I.	M2_HOME = <Maven Extracted Directory>
+II.	M2 = %M2_HOME%\bin
+III.	JAVA_HOME
+IV.	PATH = %PATH%;M2;JAVA_HOME\bin
+
+•	For more instructions refer to “Installation Instructions” section in http://maven.apache.org/download.cgi
+
+4.	Download Apache Mahout :
+•	Download the latest version of Mahout from http://www.apache.org/dyn/closer.cgi/mahout/
+•	Extract the zip to desired location
+•	Change to the extracted location and run the following 
+                                  mvn install
+•	For more instructions refer to https://cwiki.apache.org/confluence/display/MAHOUT/BuildingMahout
+
+5.	Apache Mahout: Is a machine learning library from apache. It has implementations of almost all the popular algorithms  for clustering ,classification etc. . In this course we are going to use this library for K Means clustering .
+
+6.	Apache Mahout KMeans Clustering : org,.apace.mahout.clustering.kmeans.* package has the implementation of the KMeans  and we will be using KMeansDriver class to run the job .Below are the steps involved
+
+i.	Convert our sample dataset into Hadoop Sequential File
+ii.	Create initial clusters. Here we have multiple options like using RandomSeedGenerator or with Canopy Clustering
+iii.	Call KMeansDriver.run() with the required parameters
+iv.	Read the generated output file.
+v.	Plotting (optional)
+
