@@ -167,9 +167,10 @@ Submission of First Program
 Challenge tasks (Extra points)
 -------------------------------------------------------------------------------
 
-* Run Java or Python on a FutureSystems OpenStack instance (+ 5%)
-* Run Python on IPython Notebook (+ 5%)
-
+* Run any Java or Python on a FutureSystems OpenStack instance (+ 5%)
+   - Submit screenshot images of your terminal executing Java or Python code on FutureSystems
+* Run `NumPyTutorial <https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/IPythonFiles/NumPyTutorial.ipynb>`_ Python on IPython Notebook (+ 5%)
+   - Submit screentshot images of your web browser executing NumPyTutorial on FutureSystems
 
 Preview Course Examples
 -------------------------------------------------------------------------------
