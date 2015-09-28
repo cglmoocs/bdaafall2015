@@ -114,7 +114,7 @@ We now understand how to print out a message using Python or Java. System inform
    }
 
 Compiling and Execution
-""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 ::
 
@@ -130,8 +130,7 @@ Compiling and Execution
 
 
 Python
-^^^^^^^^^^
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 :download: `https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/PythonFiles/FirstProgramWithSystemInfo.py`
 
@@ -149,7 +148,7 @@ Python
    print ("Hostname is: " + socket.gethostname())
 
 Execution
-"""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 ::
 
@@ -160,19 +159,26 @@ Execution
    Hostname is: bigdata-host
    
 Submission of First Program
--------------------------------
+-------------------------------------------------------------------------------
 
-screenshot image or text file 
+* FirstProgram.class or a screenshot image of the 'FirstProgram' execution (50%)
+* FirstProgramWithSystemInfo.class or a screenshot image of the 'FirstProgramWithSystemInfo' execution (50%)
 
-(25%)
+Challenge tasks (Extra points)
+-------------------------------------------------------------------------------
 
-Physics files
------------------
-5 or 6 examples
+* Run Java or Python on a FutureSystems OpenStack instance (+ 5%)
+* Run Python on IPython Notebook (+ 5%)
 
-1. run and save image files with slight changes (at least 3 examples)
-(75%)
-2. run on local
-3. run on futuresystems (+ 10%)
-4. run on ipython notebook (+ 10%)
+
+Preview Course Examples
+-------------------------------------------------------------------------------
+
+* The Elusive Mr.Higgs [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.Higgs>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs>`_]
+* Number Theory [`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-10_Number-Theory>`_]
+* Calculated Dice Roll [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-11_A-Calculated-Dice-Roll>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-11_A-Calculated-Dice-Roll>`_]
+* KNN [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section_7_Unit_19/KNN>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section%205%20e-Commerce%20Unit%2015_%20K'th%20Nearest%20Neighbor/knn>`_]
+
+* PageRank [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Unit-27_PageRank>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Unit%2019_%20PageRank/Page-Rank>`_]
+* KMeans [`Java <https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Unit-28_KMeans>`_][`Python <https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Unit%2016_%20Kmeans-%20Software/K-Means>`_]
 
