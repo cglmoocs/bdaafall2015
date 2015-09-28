@@ -175,8 +175,16 @@ Execution
 Submission of HW4
 -------------------------------------------------------------------------------
 
-* FirstProgram.class or a screenshot image of the 'FirstProgram' execution (50%)
-* FirstProgramWithSystemInfo.class or a screenshot image of the 'FirstProgramWithSystemInfo' execution (50%)
+[Java]
+* FirstProgram.class or a screenshot image of the 'FirstProgram' execution (25%)
+* FirstProgramWithSystemInfo.class or a screenshot image of the 'FirstProgramWithSystemInfo' execution (25%)
+
+[Python]
+* FirstProgram.pyc or a screenshot image of the 'FirstProgram' execution (25%)
+   - run ``python -m compileall FirstProgram.py`` to generate ``FirstProgram.pyc``
+* FirstProgramWithSystemInfo.pyc or a screenshot image of the 'FirstProgramWithSystemInfo' execution (25%)
+   - run ``python -m compileall FirstProgramWithSystemInfo.py`` to generate ``FirstProgramWithSystemInfo.pyc``
+
 * Submit these two files or image files to IU Canvas
 
 Challenge tasks (Extra points)
