@@ -176,10 +176,12 @@ Submission of HW4
 -------------------------------------------------------------------------------
 
 [Java]
+
 * FirstProgram.class or a screenshot image of the 'FirstProgram' execution (25%)
 * FirstProgramWithSystemInfo.class or a screenshot image of the 'FirstProgramWithSystemInfo' execution (25%)
 
 [Python]
+
 * FirstProgram.pyc or a screenshot image of the 'FirstProgram' execution (25%)
    - run ``python -m compileall FirstProgram.py`` to generate ``FirstProgram.pyc``
 * FirstProgramWithSystemInfo.pyc or a screenshot image of the 'FirstProgramWithSystemInfo' execution (25%)
