@@ -3,6 +3,11 @@ Homework HW4
 
 In this homework, you are expected to run Python or Java programs on FutureSystems or on your local machine. A few examples for beginners will help you to understand how to write and run Java or Python programs on your environment.
 
+.. sidebar:: Page Contents
+
+   .. contents::
+         :local:
+
 First Program
 --------------
 This code explains how to display a simple string on your screen. You can download or write your own code using your editor.
