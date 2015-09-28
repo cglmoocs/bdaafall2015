@@ -27,3 +27,4 @@ plt.errorbar(centers, values, yerr = errors, ls='None', marker ='x', color = 'bl
 plt.title("Uniform Background from 42000 events; 2 Gev Higgs", backgroundcolor = "white")
 # For Agg backend
 pylab.show()
+plt.show()
