@@ -158,11 +158,12 @@ Execution
    Username is: albert
    Hostname is: bigdata-host
    
-Submission of First Program
+Submission of HW4
 -------------------------------------------------------------------------------
 
 * FirstProgram.class or a screenshot image of the 'FirstProgram' execution (50%)
 * FirstProgramWithSystemInfo.class or a screenshot image of the 'FirstProgramWithSystemInfo' execution (50%)
+* Submit these two files or image files to IU Canvas
 
 Challenge tasks (Extra points)
 -------------------------------------------------------------------------------
