@@ -1,7 +1,10 @@
-Homework HW4
-=============
+Homework HW4 (FirstProgram)
+===============================================================================
 
-In this homework, you are expected to run Python or Java programs on FutureSystems or on your local machine. A few examples for beginners will help you to understand how to write and run Java or Python programs on your environment.
+In this homework, you are expected to run Python or Java programs on
+FutureSystems or on your local machine. A few examples for beginners will help
+you to understand how to write and run Java or Python programs on your
+environment.
 
 .. sidebar:: Page Contents
 
@@ -9,11 +12,14 @@ In this homework, you are expected to run Python or Java programs on FutureSyste
          :local:
 
 First Program
---------------
-This code explains how to display a simple string on your screen. You can download or write your own code using your editor.
+-------------------------------------------------------------------------------
+
+This code explains how to display a simple string on your screen. You can
+download or write your own code using your editor.
 
 Java
-^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 :download: `https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgram.java`
 
 .. code-block:: java
@@ -30,17 +36,20 @@ Java
 	  }
   }
 
-This example prints out the message on your screen by ``println`` method in the ``System`` class.
-In Java Programming, you need to complie your code to execute.
+This example prints out the message on your screen by ``println`` method in the
+``System`` class.  In Java Programming, you need to complie your code to
+execute.
 
 Compiling and Execution
-"""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 ::
   
   javac FirstProgram.java
    
-Now, you will have FirstProgram.class file on your system. Java Compiler (javac) creates Java bytecode with a ``.class`` extension. We will execute the class file with ``java`` command.
+Now, you will have FirstProgram.class file on your system. Java Compiler
+(javac) creates Java bytecode with a ``.class`` extension. We will execute the
+class file with ``java`` command.
 
 ::
 
@@ -49,7 +58,8 @@ Now, you will have FirstProgram.class file on your system. Java Compiler (javac)
 
 
 Python
-^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Let's write a same program in Python.
 
 :download: `https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/PythonFiles/FirstProgram.py`
@@ -59,7 +69,9 @@ Let's write a same program in Python.
    # Run python FirstProgram.py
    print 'My first program on Big Data Applications and Analytics!'
    
-Python function ``print`` simply displays a message on your screen. Compiling is not necessary in Python. You can run your code directly with ``python`` command.
+Python function ``print`` simply displays a message on your screen. Compiling
+is not necessary in Python. You can run your code directly with ``python``
+command.
 
 ::
 
@@ -68,12 +80,14 @@ Python function ``print`` simply displays a message on your screen. Compiling is
    
 
 First Program with system information
-----------------------------------------------
+-------------------------------------------------------------------------------
 
 Java
-^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-We now understand how to print out a message using Python or Java. System information such as time, date, user name or hostname (machine name) can be displayed as well with built-in functions in each language.
+We now understand how to print out a message using Python or Java. System
+information such as time, date, user name or hostname (machine name) can be
+displayed as well with built-in functions in each language.
 
 :download: `https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgramWithSystemInfo.java`
 
