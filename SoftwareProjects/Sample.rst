@@ -1,6 +1,5 @@
-=================
- Sample Project
-=================
+Sample Project
+===============================================================================
 
 Software projects will involve running an analysis on a data set.
 You will be provided with a Hadoop cluster running MapReduce version 1 (see `HadoopClusterAccess.rst`).
@@ -15,7 +14,7 @@ The components are:
 
 
 Invocation
-==========
+-------------------------------------------------------------------------------
 
 The ``teragen`` command accepts two parameters:
 
@@ -31,7 +30,7 @@ The ``teragen`` command accepts two parameters:
 
 
 Exercise
-========
+-------------------------------------------------------------------------------
 
 Run the Terabyte Sort procedure for various sizes of data:
 
@@ -45,14 +44,13 @@ For each component (``tera{gen,sort,validate}``), report the execution time, dat
 
 
 
-===================
- Previous Projects
-===================
+Previous Projects
+-------------------------------------------------------------------------------
 
 The following are projects from previous classes:
 
 Paper
-=====
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Review of Recommender Systems: technology & applications
 - Review of Big Data in Bioinformatics
@@ -61,6 +59,6 @@ Paper
 
 
 Software
-========
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 - Use R to analyze a particular dataset (business or sports)

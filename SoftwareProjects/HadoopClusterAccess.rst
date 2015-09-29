@@ -1,11 +1,10 @@
-=======================
- Hadoop Cluster Access
-=======================
+Hadoop Cluster Access
+===============================================================================
 
 This document describes getting access to the Hadoop cluster for the course.
 
 Prerequisites
-=============
+-------------------------------------------------------------------------------
 
 You will need
 
@@ -15,7 +14,7 @@ You will need
 
 
 Access
-======
+-------------------------------------------------------------------------------
 
 ..
   TODO: add ip address for hadoop cluster
@@ -38,9 +37,10 @@ In the above:
 
 
 Usage
-=====
+-------------------------------------------------------------------------------
 
-Hadoop is installed under ``/opt/hadoop``, and you can refer to this location using ``$HADOOP_HOME``.
+Hadoop is installed under ``/opt/hadoop``, and you can refer to this location
+using ``$HADOOP_HOME``.
 
 See
 
@@ -55,6 +55,5 @@ and
 .. code::
 
    hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples*.jar
-
 
 for more details.
