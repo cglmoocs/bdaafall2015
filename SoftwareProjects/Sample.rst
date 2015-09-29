@@ -8,6 +8,7 @@ Your goal will be to use the Hadoop cluster to run a "Big Data" computation.
 
 One possible approach is the Terabyte Sort procedure.
 The components are:
+
 - **TeraGen**: create the data
 - **TeraSort**: analyze the data using MapReduce
 - **TeraValidate**: validation of the output
@@ -17,6 +18,7 @@ Invocation
 ==========
 
 The ``teragen`` command accepts two parameters:
+
 1. number of 100-byte rows
 2. the output directory
 
@@ -32,6 +34,7 @@ Exercise
 ========
 
 Run the Terabyte Sort procedure for various sizes of data:
+
 - 1 GB
 - 10 GB
 - 100 GB
