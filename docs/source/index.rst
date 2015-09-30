@@ -28,7 +28,8 @@ choose between Python on your laptop, Python in cloud or Java in cloud.
 
 * DO - Python on your laptop: Download Enthought Canopy Express (free) from
      https://store.enthought.com/downloads/ including NumPy SciPy Matplotlib
-* OR - Set up Python in cloud or Java in cloud.  See Unit 11
+* OR - Set up Python in cloud or Java in cloud.  
+  `See Unit 11. <http://openedx.scholargrid.org/courses/SoIC/INFO590/FALL_2015/courseware/3cf90e09c7bf439fa97fda2fbdcce8fe/6cc23f2c65194720ab5fb8d339bda0b8/>`_
 
 Tasks
 -------------------------------------------------------------------------------
