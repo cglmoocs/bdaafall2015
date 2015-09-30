@@ -1,4 +1,4 @@
-Final Project
+Project Details
 ===============================================================================
 
 You have a choice to write a term paper or do a software project using our
