@@ -14,7 +14,7 @@ the final project will be individual or up to a three person team and can
 either be a significant **PAPER** or a **SOFTWARE PROJECT**. We can support
 Software in Java on clouds or Python but other software such as R allowed in
 final project Your team chooses. You can find sample software and paper
-projects. `here <Sample.html>`_.
+projects. `here <project.html>`_.
 
 .. comment:: 
         
