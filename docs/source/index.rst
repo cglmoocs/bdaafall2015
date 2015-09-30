@@ -45,18 +45,18 @@ Discussion D5
 ===============================================================================
 .. -------------------------------------------------------------------------------
 
-Use Slack and post at least one discussion post to discuss final project you
-want to do and look for team members if that's what you want.
+Create a NEW post to discuss final project you want to do and look for team
+members on Slack (http://bdaafall2015.slack.com) for Software Projects if
+that's what you want.
 
 Contents
 
 .. toctree::
    :maxdepth: 1
 
-   Sample
-   previous
    hw4
-   HadoopClusterAccess
+   discussion
+   project
 
 .. comment::
 

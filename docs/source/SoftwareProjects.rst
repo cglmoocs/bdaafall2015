@@ -39,5 +39,12 @@ Run the Terabyte Sort procedure for various sizes of data:
 - 100 GB
 
 
-For each component (``tera{gen,sort,validate}``), report the execution time, data read and written (in GB) as well as the cumulative values.
+For each component (``tera{gen,sort,validate}``), report the execution time,
+data read and written (in GB) as well as the cumulative values.
 
+Other Software Projects
+===============================================================================
+
+The following are projects from previous classes:
+
+* Use R to analyze a particular dataset (business or sports)
