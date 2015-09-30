@@ -13,7 +13,7 @@ the final project will be individual or up to a three person team and can
 either be a significant **PAPER** or a **SOFTWARE PROJECT**. We can support
 Software in Java on clouds or Python but other software such as R allowed in
 final project Your team chooses. You can find sample software and paper
-projects `here <Sample.html>`_
+projects **`here <Sample.html>`_**.
 
 .. comment:: 
         
@@ -33,7 +33,7 @@ Tasks
 -------------------------------------------------------------------------------
 
 Submit results to show your software is set up and running. Solve tasks
-following instructions `here <hw4.html>`_
+following instructions **`here <hw4.html>`_ .**
 
 .. chapter 1 of  http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
 - Submit your Java and Python program results to IU Canvas
