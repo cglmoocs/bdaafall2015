@@ -23,7 +23,7 @@ download or write your own code using your editor.
 Java
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-:download: `https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgram.java`
+`Download: FirstProgram.java <https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgram.java>`_
 
 .. code-block:: java
 
@@ -65,7 +65,7 @@ Python
 
 Let's write a same program in Python.
 
-:download: `https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/PythonFiles/FirstProgram.py`
+`Download: FirstProgram.py <https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/PythonFiles/FirstProgram.py>`_
 
 .. code-block:: python
 
@@ -92,7 +92,7 @@ We now understand how to print out a message using Python or Java. System
 information such as time, date, user name or hostname (machine name) can be
 displayed as well with built-in functions in each language.
 
-:download: `https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgramWithSystemInfo.java`
+`Download: <https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgramWithSystemInfo.java>`_
 
 .. code-block:: java
 
@@ -149,7 +149,7 @@ Compiling and Execution
 Python
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* :download:`FirstProgramWithSystemInfo.py <https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/PythonFiles/FirstProgramWithSystemInfo.py>`
+`Download FirstProgramWithSystemInfo.py <https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/PythonFiles/FirstProgramWithSystemInfo.py>`_
 
 .. code-block:: python
 
