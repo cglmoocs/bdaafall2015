@@ -4,7 +4,7 @@ This repository contains programming files and documentation for the Big Data Ap
 
 Fall 2015 semester is the cunrrent term for the course.
 
-* Course Site: openedx.scholargrid.org
-* Canvas: canvas.iu.edu
-* Homework note: bdaafall2015.readthedocs.org
-* Slack Chat: bdaafall2015.slack.com
+* Course Site: http://openedx.scholargrid.org
+* Canvas: http://canvas.iu.edu
+* Homework note: http://bdaafall2015.readthedocs.org
+* Slack Chat: http://bdaafall2015.slack.com
