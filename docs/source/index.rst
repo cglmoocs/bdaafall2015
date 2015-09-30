@@ -54,6 +54,7 @@ Contents
    :maxdepth: 1
 
    Sample
+   previous
    hw4
    HadoopClusterAccess
 
