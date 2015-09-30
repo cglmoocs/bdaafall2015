@@ -7,7 +7,9 @@ FutureSystems or on your local machine. A few examples for beginners will help
 you to understand how to write and run Java or Python programs on your
 environment.
 
-.. sidebar:: Page Contents
+.. comment::
+
+  .. sidebar:: Page Contents
 
    .. contents::
          :local:
