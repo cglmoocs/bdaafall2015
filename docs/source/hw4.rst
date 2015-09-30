@@ -92,7 +92,7 @@ We now understand how to print out a message using Python or Java. System
 information such as time, date, user name or hostname (machine name) can be
 displayed as well with built-in functions in each language.
 
-`Download: <https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgramWithSystemInfo.java>`_
+`Download: FirstProgramWithSystemInfo.java <https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgramWithSystemInfo.java>`_
 
 .. code-block:: java
 
