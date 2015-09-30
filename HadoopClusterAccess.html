@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Hadoop Cluster Access &mdash; bdaafall2015  documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="bdaafall2015  documentation" href="index.html" />
+    <link rel="prev" title="Homework HW4 (FirstProgram)" href="hw4.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="hw4.html" title="Homework HW4 (FirstProgram)"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">bdaafall2015  documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="hadoop-cluster-access">
+<h1>Hadoop Cluster Access<a class="headerlink" href="#hadoop-cluster-access" title="Permalink to this headline">¶</a></h1>
+<p>This document describes getting access to the Hadoop cluster for the course.</p>
+<div class="section" id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<p>You will need</p>
+<ol class="arabic simple">
+<li>An a account with FutureSystems</li>
+<li>To be a member of FutureSystems project 475</li>
+<li>Have uploaded an ssh key to the portal</li>
+</ol>
+</div>
+<div class="section" id="access">
+<h2>Access<a class="headerlink" href="#access" title="Permalink to this headline">¶</a></h2>
+<p>The cluster frontend is located at <tt class="docutils literal"><span class="pre">&lt;IP_ADDRESS&gt;</span></tt></p>
+<p>Login using ssh:</p>
+<div class="code highlight-python"><div class="highlight"><pre>ssh -i $PATH_TO_SSH_PUBLIC_KEY $PORTAL_USERNAME@$HADOOP_IP
+</pre></div>
+</div>
+<p>In the above:</p>
+<ul class="simple">
+<li><tt class="docutils literal"><span class="pre">$PATH_TO_SSH_PUBLIC_KEY</span></tt> is the location of the public key that has been added to the futuresystems portal</li>
+<li><tt class="docutils literal"><span class="pre">$PORTAL_USERNAME</span></tt> is the username on the futuresystems portal</li>
+<li><tt class="docutils literal"><span class="pre">$HADOOP_IP</span></tt> is the IP address of the hadoop frontend node</li>
+</ul>
+</div>
+<div class="section" id="usage">
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline">¶</a></h2>
+<p>Hadoop is installed under <tt class="docutils literal"><span class="pre">/opt/hadoop</span></tt>, and you can refer to this location
+using <tt class="docutils literal"><span class="pre">$HADOOP_HOME</span></tt>.</p>
+<p>See</p>
+<div class="code highlight-python"><div class="highlight"><pre>hadoop fs
+</pre></div>
+</div>
+<p>and</p>
+<div class="code highlight-python"><div class="highlight"><pre>hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples*.jar
+</pre></div>
+</div>
+<p>for more details.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Hadoop Cluster Access</a><ul>
+<li><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li><a class="reference internal" href="#access">Access</a></li>
+<li><a class="reference internal" href="#usage">Usage</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="hw4.html"
+                        title="previous chapter">Homework HW4 (FirstProgram)</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/HadoopClusterAccess.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="hw4.html" title="Homework HW4 (FirstProgram)"
+             >previous</a> |</li>
+        <li><a href="index.html">bdaafall2015  documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2015, bdaa course team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

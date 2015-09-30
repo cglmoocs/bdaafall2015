@@ -1,0 +1,344 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Homework HW4 (FirstProgram) &mdash; bdaafall2015  documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="bdaafall2015  documentation" href="index.html" />
+    <link rel="next" title="Hadoop Cluster Access" href="HadoopClusterAccess.html" />
+    <link rel="prev" title="Sample Software Project" href="Sample.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="HadoopClusterAccess.html" title="Hadoop Cluster Access"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="Sample.html" title="Sample Software Project"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">bdaafall2015  documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="homework-hw4-firstprogram">
+<h1>Homework HW4 (FirstProgram)<a class="headerlink" href="#homework-hw4-firstprogram" title="Permalink to this headline">¶</a></h1>
+<p>In this homework, you are expected to run Python or Java programs on
+FutureSystems or on your local machine. A few examples for beginners will help
+you to understand how to write and run Java or Python programs on your
+environment.</p>
+<div class="section" id="first-program">
+<h2>First Program<a class="headerlink" href="#first-program" title="Permalink to this headline">¶</a></h2>
+<p>This code explains how to display a simple string on your screen. You can
+download or write your own code using your editor.</p>
+<div class="section" id="java">
+<h3>Java<a class="headerlink" href="#java" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgram.java">Download: FirstProgram.java</a></p>
+<div class="highlight-java"><div class="highlight"><pre><span class="cm">/**</span>
+<span class="cm">* Sample Program to print out a message</span>
+<span class="cm">*</span>
+<span class="cm">* Compile : javac FirstProgram.java</span>
+<span class="cm">*     Run    : java FirstProgram</span>
+<span class="cm">*/</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">FirstProgram</span> <span class="o">{</span>
+      <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">){</span>
+                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;My first program on Big Data Applications and Analytics!&quot;</span><span class="o">);</span>
+        <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+<p>This example prints out the message on your screen by <tt class="docutils literal"><span class="pre">println</span></tt> method in the
+<tt class="docutils literal"><span class="pre">System</span></tt> class.  In Java Programming, you need to complie your code to
+execute.</p>
+<div class="section" id="compiling-and-execution">
+<h4>Compiling and Execution<a class="headerlink" href="#compiling-and-execution" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-python"><div class="highlight"><pre>javac FirstProgram.java
+</pre></div>
+</div>
+<p>Now, you will have FirstProgram.class file on your system. Java Compiler
+(javac) creates Java bytecode with a <tt class="docutils literal"><span class="pre">.class</span></tt> extension. We will execute the
+class file with <tt class="docutils literal"><span class="pre">java</span></tt> command.</p>
+<div class="highlight-python"><div class="highlight"><pre>java FirstProgram
+My first program on Big Data Applications and Analytics!
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="python">
+<h3>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h3>
+<p>Let&#8217;s write a same program in Python.</p>
+<p><a class="reference external" href="https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/PythonFiles/FirstProgram.py">Download: FirstProgram.py</a></p>
+<div class="highlight-python"><div class="highlight"><pre><span class="c"># Run python FirstProgram.py</span>
+<span class="k">print</span> <span class="s">&#39;My first program on Big Data Applications and Analytics!&#39;</span>
+</pre></div>
+</div>
+<p>Python function <tt class="docutils literal"><span class="pre">print</span></tt> simply displays a message on your screen. Compiling
+is not necessary in Python. You can run your code directly with <tt class="docutils literal"><span class="pre">python</span></tt>
+command.</p>
+<div class="highlight-python"><div class="highlight"><pre>python FirstProgram.py
+My first program on Big Data Applications and Analytics!
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="first-program-with-system-information">
+<h2>First Program with system information<a class="headerlink" href="#first-program-with-system-information" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3>Java<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>We now understand how to print out a message using Python or Java. System
+information such as time, date, user name or hostname (machine name) can be
+displayed as well with built-in functions in each language.</p>
+<p><a class="reference external" href="https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/JavaFiles/FirstProgramWithSystemInfo.java">Download: FirstProgramWithSystemInfo.java</a></p>
+<div class="highlight-java"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">java.util.Date</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.text.DateFormat</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.text.SimpleDateFormat</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.net.InetAddress</span><span class="o">;</span>
+<span class="kn">import</span> <span class="nn">java.net.UnknownHostException</span><span class="o">;</span>
+
+<span class="cm">/**</span>
+<span class="cm"> *  * Sample Program with system information</span>
+<span class="cm"> *  *</span>
+<span class="cm"> *  * Compile : javac FirstProgramWithSystemInfo.java</span>
+<span class="cm"> *  *   Run    : java FirstProgramWithSystemInfo</span>
+<span class="cm"> *  */</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">FirstProgramWithSystemInfo</span> <span class="o">{</span>
+        <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">){</span>
+
+                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;My first program with System Information!&quot;</span><span class="o">);</span>
+
+                <span class="c1">// Print Date with Time</span>
+                <span class="n">DateFormat</span> <span class="n">dateFormat</span> <span class="o">=</span> <span class="k">new</span> <span class="n">SimpleDateFormat</span><span class="o">(</span><span class="s">&quot;yyyy/MM/dd HH:mm:ss&quot;</span><span class="o">);</span>
+                <span class="n">Date</span> <span class="n">date</span> <span class="o">=</span> <span class="k">new</span> <span class="n">Date</span><span class="o">();</span>
+                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Today is: &quot;</span> <span class="o">+</span> <span class="n">dateFormat</span><span class="o">.</span><span class="na">format</span><span class="o">(</span><span class="n">date</span><span class="o">));</span>
+                <span class="c1">// Print Username</span>
+                <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Username is: &quot;</span> <span class="o">+</span> <span class="n">System</span><span class="o">.</span><span class="na">getProperty</span><span class="o">(</span><span class="s">&quot;user.name&quot;</span><span class="o">));</span>
+                <span class="c1">// Print hostname</span>
+                <span class="k">try</span> <span class="o">{</span>
+                        <span class="n">java</span><span class="o">.</span><span class="na">net</span><span class="o">.</span><span class="na">InetAddress</span> <span class="n">localMachine</span> <span class="o">=</span> <span class="n">java</span><span class="o">.</span><span class="na">net</span><span class="o">.</span><span class="na">InetAddress</span><span class="o">.</span><span class="na">getLocalHost</span><span class="o">();</span>
+                        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;Hostname is: &quot;</span> <span class="o">+</span> <span class="n">localMachine</span><span class="o">.</span><span class="na">getHostName</span><span class="o">());</span>
+                <span class="o">}</span> <span class="k">catch</span> <span class="o">(</span><span class="n">UnknownHostException</span> <span class="n">e</span><span class="o">)</span> <span class="o">{</span>
+                        <span class="n">e</span><span class="o">.</span><span class="na">printStackTrace</span><span class="o">();</span>
+                        <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">&quot;No host name: &quot;</span> <span class="o">+</span> <span class="n">e</span><span class="o">.</span><span class="na">getMessage</span><span class="o">());</span>
+                <span class="o">}</span>
+        <span class="o">}</span>
+<span class="o">}</span>
+</pre></div>
+</div>
+<div class="section" id="id2">
+<h4>Compiling and Execution<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-python"><div class="highlight"><pre>javac FirstProgramWithSystemInfo.java
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre>java FirstProgramWithSystemInfo
+My first program with System Information!
+Today is: 2015/01/01 18:54:10
+Username is: albert
+Hostname is: bigdata-host
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="id3">
+<h3>Python<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/PythonFiles/FirstProgramWithSystemInfo.py">Download FirstProgramWithSystemInfo.py</a></p>
+<div class="highlight-python"><div class="highlight"><pre><span class="kn">from</span> <span class="nn">datetime</span> <span class="kn">import</span> <span class="n">datetime</span>
+<span class="kn">import</span> <span class="nn">getpass</span>
+<span class="kn">import</span> <span class="nn">socket</span>
+
+<span class="c"># Run python FirstProgramWithSystemInfo.py</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">&#39;My first program with System Information!&#39;</span><span class="p">)</span>
+
+<span class="k">print</span> <span class="p">(</span><span class="s">&quot;Today is: &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">()))</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">&quot;Username is: &quot;</span> <span class="o">+</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getuser</span><span class="p">())</span>
+<span class="k">print</span> <span class="p">(</span><span class="s">&quot;Hostname is: &quot;</span> <span class="o">+</span> <span class="n">socket</span><span class="o">.</span><span class="n">gethostname</span><span class="p">())</span>
+</pre></div>
+</div>
+<div class="section" id="execution">
+<h4>Execution<a class="headerlink" href="#execution" title="Permalink to this headline">¶</a></h4>
+<div class="highlight-python"><div class="highlight"><pre>python  FirstProgramWithSystemInfo.py
+My first program with System Information!
+Today is: 2015-01-01 18:58:10.937227
+Username is: albert
+Hostname is: bigdata-host
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="submission-of-hw4">
+<h2>Submission of HW4<a class="headerlink" href="#submission-of-hw4" title="Permalink to this headline">¶</a></h2>
+<p>[Java]</p>
+<ul class="simple">
+<li><strong>FirstProgram.class or a screenshot image of the &#8216;FirstProgram&#8217; execution (25%)</strong></li>
+<li><strong>FirstProgramWithSystemInfo.class or a screenshot image of the &#8216;FirstProgramWithSystemInfo&#8217; execution (25%)</strong></li>
+</ul>
+<p>[Python]</p>
+<ul>
+<li><dl class="first docutils">
+<dt>FirstProgram.pyc or a screenshot image of the &#8216;FirstProgram&#8217; execution (25%)</dt>
+<dd><ul class="first last simple">
+<li>run <tt class="docutils literal"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">compileall</span> <span class="pre">FirstProgram.py</span></tt> to generate <tt class="docutils literal"><span class="pre">FirstProgram.pyc</span></tt></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>FirstProgramWithSystemInfo.pyc or a screenshot image of the &#8216;FirstProgramWithSystemInfo&#8217; execution (25%)</dt>
+<dd><ul class="first last simple">
+<li>run <tt class="docutils literal"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">compileall</span> <span class="pre">FirstProgramWithSystemInfo.py</span></tt> to generate <tt class="docutils literal"><span class="pre">FirstProgramWithSystemInfo.pyc</span></tt></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first"><strong>Submit these files or image files to IU Canvas</strong></p>
+</li>
+</ul>
+</div>
+<div class="section" id="challenge-tasks">
+<h2>Challenge tasks<a class="headerlink" href="#challenge-tasks" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><dl class="first docutils">
+<dt>Run any Java or Python on a FutureSystems OpenStack instance</dt>
+<dd><ul class="first last simple">
+<li>Submit screenshot images of your terminal executing Java or Python code on FutureSystems</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>Run <a class="reference external" href="https://raw.githubusercontent.com/cglmoocs/bdaafall2015/master/IPythonFiles/NumPyTutorial.ipynb">NumPyTutorial</a> Python on IPython Notebook</dt>
+<dd><ul class="first last simple">
+<li>Submit screentshot images of your web browser executing NumPyTutorial on FutureSystems</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p class="first"><strong>Tips: See</strong> <a class="reference external" href="http://cloudmesh.github.io/introduction_to_cloud_computing/class/cm-mooc/index.html">tutorials for Big Data Applications and Analytics Shell on FutureSystems</a></p>
+</li>
+</ul>
+</div>
+<div class="section" id="preview-course-examples">
+<h2>Preview Course Examples<a class="headerlink" href="#preview-course-examples" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>The Elusive Mr.Higgs [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.Higgs">Java</a>][<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-9_The-Elusive-Mr.-Higgs">Python</a>]</li>
+<li>Number Theory [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-10_Number-Theory">Python</a>]</li>
+<li>Calculated Dice Roll [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section-4_Physics-Units-9-10-11/Unit-11_A-Calculated-Dice-Roll">Java</a>][<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section-4_Physics-Units-9-10-11/Unit-11_A-Calculated-Dice-Roll">Python</a>]</li>
+<li>KNN [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Section_7_Unit_19/KNN">Java</a>][<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Section%205%20e-Commerce%20Unit%2015_%20K'th%20Nearest%20Neighbor/knn">Python</a>]</li>
+<li>PageRank [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Unit-27_PageRank">Java</a>][<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Unit%2019_%20PageRank/Page-Rank">Python</a>]</li>
+<li>KMeans [<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/JavaFiles/Unit-28_KMeans">Java</a>][<a class="reference external" href="https://github.com/cglmoocs/bdaafall2015/tree/master/PythonFiles/Unit%2016_%20Kmeans-%20Software/K-Means">Python</a>]</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Homework HW4 (FirstProgram)</a><ul>
+<li><a class="reference internal" href="#first-program">First Program</a><ul>
+<li><a class="reference internal" href="#java">Java</a><ul>
+<li><a class="reference internal" href="#compiling-and-execution">Compiling and Execution</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#python">Python</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#first-program-with-system-information">First Program with system information</a><ul>
+<li><a class="reference internal" href="#id1">Java</a><ul>
+<li><a class="reference internal" href="#id2">Compiling and Execution</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#id3">Python</a><ul>
+<li><a class="reference internal" href="#execution">Execution</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a class="reference internal" href="#submission-of-hw4">Submission of HW4</a></li>
+<li><a class="reference internal" href="#challenge-tasks">Challenge tasks</a></li>
+<li><a class="reference internal" href="#preview-course-examples">Preview Course Examples</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="Sample.html"
+                        title="previous chapter">Sample Software Project</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="HadoopClusterAccess.html"
+                        title="next chapter">Hadoop Cluster Access</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/hw4.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="HadoopClusterAccess.html" title="Hadoop Cluster Access"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="Sample.html" title="Sample Software Project"
+             >previous</a> |</li>
+        <li><a href="index.html">bdaafall2015  documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2015, bdaa course team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>

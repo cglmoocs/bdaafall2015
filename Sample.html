@@ -1,0 +1,174 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Sample Software Project &mdash; bdaafall2015  documentation</title>
+    
+    <link rel="stylesheet" href="_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="bdaafall2015  documentation" href="index.html" />
+    <link rel="next" title="Homework HW4 (FirstProgram)" href="hw4.html" />
+    <link rel="prev" title="Homework H4: Get your software set up for later lectures and final project" href="overview.html" /> 
+  </head>
+  <body>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="hw4.html" title="Homework HW4 (FirstProgram)"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="overview.html" title="Homework H4: Get your software set up for later lectures and final project"
+             accesskey="P">previous</a> |</li>
+        <li><a href="index.html">bdaafall2015  documentation</a> &raquo;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body">
+            
+  <div class="section" id="sample-software-project">
+<h1>Sample Software Project<a class="headerlink" href="#sample-software-project" title="Permalink to this headline">¶</a></h1>
+<p>Software projects will involve running an analysis on a data set.
+You will be provided with a Hadoop cluster running MapReduce version 1 (see <a class="reference external" href="HadoopClusterAccess.html">HadoopClusterAccess.html</a>).
+Your goal will be to use the Hadoop cluster to run a &#8220;Big Data&#8221; computation.</p>
+<p>One possible approach is the Terabyte Sort procedure.
+The components are:</p>
+<ul class="simple">
+<li><strong>TeraGen</strong>: create the data</li>
+<li><strong>TeraSort</strong>: analyze the data using MapReduce</li>
+<li><strong>TeraValidate</strong>: validation of the output</li>
+</ul>
+<div class="section" id="invocation">
+<h2>Invocation<a class="headerlink" href="#invocation" title="Permalink to this headline">¶</a></h2>
+<p>The <tt class="docutils literal"><span class="pre">teragen</span></tt> command accepts two parameters:</p>
+<ol class="arabic simple">
+<li>number of 100-byte rows</li>
+<li>the output directory</li>
+</ol>
+<p><tt class="docutils literal"><span class="pre">hadoop</span> <span class="pre">jar</span> <span class="pre">$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.1.jar</span> <span class="pre">teragen</span> <span class="pre">$COUNT</span> <span class="pre">/user/$USER/tera-gen</span></tt></p>
+<p><tt class="docutils literal"><span class="pre">hadoop</span> <span class="pre">jar</span> <span class="pre">$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.1.jar</span> <span class="pre">terasort</span> <span class="pre">/user/$USER/tera-gen</span> <span class="pre">/user/$USER/tera-sort</span></tt></p>
+<p><tt class="docutils literal"><span class="pre">hadoop</span> <span class="pre">jar</span> <span class="pre">$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.1.jar</span> <span class="pre">teravalidate</span> <span class="pre">/user/$USER/tera-sort</span> <span class="pre">/user/$USER/tera-validate</span></tt></p>
+</div>
+<div class="section" id="exercise">
+<h2>Exercise<a class="headerlink" href="#exercise" title="Permalink to this headline">¶</a></h2>
+<p>Run the Terabyte Sort procedure for various sizes of data:</p>
+<ul class="simple">
+<li>1 GB</li>
+<li>10 GB</li>
+<li>100 GB</li>
+</ul>
+<p>For each component (<tt class="docutils literal"><span class="pre">tera{gen,sort,validate}</span></tt>), report the execution time, data read and written (in GB) as well as the cumulative values.</p>
+</div>
+</div>
+<div class="section" id="previous-projects">
+<h1>Previous Projects<a class="headerlink" href="#previous-projects" title="Permalink to this headline">¶</a></h1>
+<p>The following are projects from previous classes:</p>
+<div class="section" id="paper">
+<h2>Paper<a class="headerlink" href="#paper" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Review of Recommender Systems: technology &amp; applications</li>
+<li>Review of Big Data in Bioinformatics</li>
+<li>Review of Data visualization including high dimensional data</li>
+<li>Design of a NoSQL database for a specialized application</li>
+</ul>
+</div>
+<div class="section" id="software">
+<h2>Software<a class="headerlink" href="#software" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Use R to analyze a particular dataset (business or sports)</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Sample Software Project</a><ul>
+<li><a class="reference internal" href="#invocation">Invocation</a></li>
+<li><a class="reference internal" href="#exercise">Exercise</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#previous-projects">Previous Projects</a><ul>
+<li><a class="reference internal" href="#paper">Paper</a></li>
+<li><a class="reference internal" href="#software">Software</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="overview.html"
+                        title="previous chapter">Homework H4: Get your software set up for later lectures and final project</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="hw4.html"
+                        title="next chapter">Homework HW4 (FirstProgram)</a></p>
+  <h3>This Page</h3>
+  <ul class="this-page-menu">
+    <li><a href="_sources/Sample.txt"
+           rel="nofollow">Show Source</a></li>
+  </ul>
+<div id="searchbox" style="display: none">
+  <h3>Quick search</h3>
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="hw4.html" title="Homework HW4 (FirstProgram)"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="overview.html" title="Homework H4: Get your software set up for later lectures and final project"
+             >previous</a> |</li>
+        <li><a href="index.html">bdaafall2015  documentation</a> &raquo;</li> 
+      </ul>
+    </div>
+    <div class="footer">
+        &copy; Copyright 2015, bdaa course team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
+    </div>
+  </body>
+</html>
