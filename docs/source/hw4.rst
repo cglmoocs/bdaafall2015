@@ -1,6 +1,8 @@
-
-Homework HW4 (FirstProgram)
+Homework H4: Get your software set up for later lectures and final project
 ===============================================================================
+
+.. Homework HW4 (FirstProgram)
+.. ===============================================================================
 
 In this homework, you are expected to run Python or Java programs on
 FutureSystems or on your local machine. A few examples for beginners will help

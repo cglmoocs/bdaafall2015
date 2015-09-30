@@ -3,8 +3,9 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Homework H4: Get your software set up for later lectures and final project
+Assignment #5: Homework H4 and Discussion D5
 ===============================================================================
+.. Homework H4: Get your software set up for later lectures and final project
 
 First some background: You will need modest software for some of lectures and
 homeworks. This can be most easily done in Python but Java is also possible; no
@@ -41,7 +42,8 @@ following instructions `here <hw4.html>`_ .
 - Submit your Java and Python program results to IU Canvas
 
 Discussion D5
--------------------------------------------------------------------------------
+===============================================================================
+.. -------------------------------------------------------------------------------
 
 Use Slack and post at least one discussion post to discuss final project you
 want to do and look for team members if that's what you want.
