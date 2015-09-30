@@ -25,8 +25,9 @@ Preparing Software
 
 Java and Python are installed on our cloud as explained in Unit 11. Here you
 choose between Python on your laptop, Python in cloud or Java in cloud.  
+
 * DO - Python on your laptop: Download Enthought Canopy Express (free) from
-https://store.enthought.com/downloads/ including NumPy SciPy Matplotlib
+     https://store.enthought.com/downloads/ including NumPy SciPy Matplotlib
 * OR - Set up Python in cloud or Java in cloud.  See Unit 11
 
 Tasks
@@ -37,7 +38,6 @@ following instructions **`here <hw4.html>`_ .**
 
 .. chapter 1 of  http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
 - Submit your Java and Python program results to IU Canvas
-
 
 Discussion D5
 -------------------------------------------------------------------------------
