@@ -16,6 +16,25 @@ environment.
    .. contents::
          :local:
 
+Setup
+-------------------------------------------------------------------------------
+
+Java and Python are installed on our cloud as explained in Unit 11. Here you
+choose between Python on your laptop, Python in cloud or Java in cloud.
+
+Local Setup
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Download Enthought Canopy Express (free) from
+https://store.enthought.com/downloads/ including NumPy SciPy Matplotlib
+
+Cloud
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Set up Python in cloud or Java in cloud. See Unit 11.  Python on your laptop:
+Download Enthought Canopy Express (free) from
+https://store.enthought.com/downloads/ including NumPy SciPy Matplotlib
+
 First Program
 -------------------------------------------------------------------------------
 
@@ -84,8 +103,11 @@ command.
    My first program on Big Data Applications and Analytics!
    
 
-First Program with system information
+Display System Information
 -------------------------------------------------------------------------------
+
+This is an extension of your first program. We will lean how to import functions
+and use them to get system information like hostname or username.
 
 Java
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -180,6 +202,8 @@ Execution
 Submission of HW4
 -------------------------------------------------------------------------------
 
+**Submit these files or image files to** `IU Canvas <canvas.iu.edu>`_
+
 [Java]
 
 * **FirstProgram.class or a screenshot image of the 'FirstProgram' execution (25%)**
@@ -192,7 +216,6 @@ Submission of HW4
 * FirstProgramWithSystemInfo.pyc or a screenshot image of the 'FirstProgramWithSystemInfo' execution (25%)
    - run ``python -m compileall FirstProgramWithSystemInfo.py`` to generate ``FirstProgramWithSystemInfo.pyc``
 
-* **Submit these files or image files to IU Canvas**
 
 Challenge tasks
 -------------------------------------------------------------------------------
