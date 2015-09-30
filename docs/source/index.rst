@@ -45,6 +45,15 @@ Discussion D5
 Use Slack and post at least one discussion post to discuss final project you
 want to do and look for team members if that's what you want.
 
+Contents
+
+.. toctree::
+   :maxdepth: 1
+
+   Sample
+   hw4
+   HadoopClusterAccess
+
 .. comment::
 
         .. include:: hw4.rst
