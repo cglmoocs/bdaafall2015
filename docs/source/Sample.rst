@@ -2,7 +2,7 @@ Sample Project
 ===============================================================================
 
 Software projects will involve running an analysis on a data set.
-You will be provided with a Hadoop cluster running MapReduce version 1 (see `HadoopClusterAccess.rst`).
+You will be provided with a Hadoop cluster running MapReduce version 1 (see `<HadoopClusterAccess.html>`_).
 Your goal will be to use the Hadoop cluster to run a "Big Data" computation.
 
 One possible approach is the Terabyte Sort procedure.
