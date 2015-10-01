@@ -7,12 +7,12 @@ Classification of Recommendation Systems
 --------------------------------------------------
 
 * Traditional Recommendation Systems
-  - Collaborative Methods
-  - Content-Based Method
-  - Hybrid Methods
+   - Collaborative Methods
+   - Content-Based Method
+   - Hybrid Methods
 * Social Recommender Systems
-  - Memory Based (e.g. TidalTrust, MoleTrust, SoRec)
-  - Model Based
+   - Memory Based (e.g. TidalTrust, MoleTrust, SoRec)
+   - Model Based
 * Mobile Recommendation Systems
 * Context-Aware Recommendation Systems
 
