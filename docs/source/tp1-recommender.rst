@@ -1,7 +1,7 @@
 Review of Recommender systems
 ==========================================
 
-This is an example of term papers from one of the former students. Use this example as tip, not as your guidance for your project.
+This is an example of term papers from one of the former students. Use this example as tip, not as your guidance for your project. We provide some part of chapters and references to help you design your project or paper. Do not limit your project or paper with the example. Work on your idea and address your findings.
 
 Classification of Recommendation Systems
 --------------------------------------------------
