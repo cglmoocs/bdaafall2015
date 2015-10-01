@@ -1,5 +1,33 @@
+Review of Recommender systems
+==========================================
+
+This is an example of term papers from one of the former students. Use this example as tip, not as your guidance for your project.
+
+Classification of Recommendation Systems
+--------------------------------------------------
+
+* Traditional Recommendation Systems
+  - Collaborative Methods
+  - Content-Based Method
+  - Hybrid Methods
+* Social Recommender Systems
+  - Memory Based (e.g. TidalTrust, MoleTrust, SoRec)
+  - Model Based
+* Mobile Recommendation Systems
+* Context-Aware Recommendation Systems
+
+Use of recommentation systems in the Industry
+--------------------------------------------------
+
+There are some examples:
+
+* Amazon Recommendation System
+* YouTube Recommendation System
+* Netflix Recommendation System
+* Google News Recommendation System
+
 References
-=============
+--------------------------------------------------
 
 - Ma, Hao, et al. "Recommender systems with social regularization.” Proceedings of the fourth ACM international conference on Web search and data mining. ACM, 2011
 - Adomavicius, Gediminas, and Alexander Tuzhilin. "Toward the next generation of recommender systems: A survey of the state-of-the-art and possible extensions." Knowledge and Data Engineering, IEEE Transactions on 17.6 (2005): 734-749.
