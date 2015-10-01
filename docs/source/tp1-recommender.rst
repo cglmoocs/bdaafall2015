@@ -1,3 +1,5 @@
+.. _tp1-recommender:
+
 Review of Recommender systems
 ==========================================
 
