@@ -39,7 +39,7 @@ Submit results to show your software is set up and running. Solve tasks
 following instructions `here <hw4.html>`_ .
 
 .. chapter 1 of  http://openedx.scholargrid.org/c4x/SoIC/INFO590/asset/hw4-bdaafall2015.pdf
-- Submit your Java and Python program results to IU Canvas
+- Submit your Java OR Python program results to IU Canvas
 
 Discussion D5
 ===============================================================================

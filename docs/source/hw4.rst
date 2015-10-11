@@ -201,18 +201,18 @@ Execution
 Submission of HW4
 -------------------------------------------------------------------------------
 
-**Submit these files or image files to** `IU Canvas <canvas.iu.edu>`_
+**Submit these compiled files or screenshot image files to** `IU Canvas <canvas.iu.edu>`_
 
 [Java]
 
-* **FirstProgram.class or a screenshot image of the 'FirstProgram' execution (25%)**
-* **FirstProgramWithSystemInfo.class or a screenshot image of the 'FirstProgramWithSystemInfo' execution (25%)**
+* **FirstProgram.class or a screenshot image of the 'FirstProgram' execution (50 points) **
+* **FirstProgramWithSystemInfo.class or a screenshot image of the 'FirstProgramWithSystemInfo' execution (50 points)**
 
 [Python]
 
-* FirstProgram.pyc or a screenshot image of the 'FirstProgram' execution (25%)
+* FirstProgram.pyc or a screenshot image of the 'FirstProgram' execution (50 points)
    - run ``python -m compileall FirstProgram.py`` to generate ``FirstProgram.pyc``
-* FirstProgramWithSystemInfo.pyc or a screenshot image of the 'FirstProgramWithSystemInfo' execution (25%)
+* FirstProgramWithSystemInfo.pyc or a screenshot image of the 'FirstProgramWithSystemInfo' execution (50 points)
    - run ``python -m compileall FirstProgramWithSystemInfo.py`` to generate ``FirstProgramWithSystemInfo.pyc``
 
 
