@@ -18,11 +18,15 @@ Port number
 Additional options
 --------------------
 
-```-o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no```
+.. code::
+
+   -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no
 
 SSH Example
 -------------
 
-ssh  PORTALNAME@149.165.159.135 -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no
+.. code::
+  
+   ssh  PORTALNAME@149.165.159.135 -p 2222 -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no
 
 .. note:: replace PORTALNAME with your real portal login name
