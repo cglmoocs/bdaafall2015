@@ -22,6 +22,8 @@ Get Started
 * Login to :ref:`Frontend <frontend>`
 * Check HDFS by ```hadoop dfs -ls```
 
+.. note:: Hadoop basic commands and web interfaces are introduced :ref:`here <hadoop_basics>`
+
 TeraGen
 -------------------------------------------------------------------------------
 
