@@ -1,3 +1,5 @@
+.. _hadoop_basics:
+
 Apache Hadoop Basics
 ===========================
 
