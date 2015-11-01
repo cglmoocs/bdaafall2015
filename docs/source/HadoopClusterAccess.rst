@@ -1,3 +1,5 @@
+.. _hc_access:
+
 Hadoop Cluster Access
 ===============================================================================
 
@@ -19,7 +21,7 @@ Access
 ..
   TODO: add ip address for hadoop cluster
 
-The cluster frontend is located at ``<IP_ADDRESS>``
+The cluster frontend is located at ``<IP_ADDRESS>``, :ref:`frontend ip <frontend>`
 
 Login using ssh:
 
