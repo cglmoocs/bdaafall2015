@@ -17,6 +17,11 @@ You will get a Hadoop Cluster on FutureSystems with your fg-475 membership.
 
 * `Hadoop Cluster Access <HadoopClusterAccess.html>`_
 
+Supported Software Projects
+-------------------------------------------------------------------------------
+
+* :ref:`TeraSort Hadoop Benchmark <terasort>`
+
 Sample Software Projects or Term Paper
 -------------------------------------------------------------------------------
 
