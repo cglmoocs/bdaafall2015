@@ -43,3 +43,10 @@ Hadoop built-in example
 -   wordmean: A map/reduce program that counts the average length of the words in the input files.
 -   wordmedian: A map/reduce program that counts the median length of the words in the input files.
 -   wordstandarddeviation: A map/reduce program that counts the standard deviation of the length of the words in the input files.
+
+Hadoop Web Interface
+------------------------
+
+- ResourceManager: 8088
+- NameNode: 50070
+- JobHistoryServer: 19888
