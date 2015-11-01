@@ -19,7 +19,7 @@ time of TeraSort is the measure of the performance of Hadoop.
 Get Started
 -------------------------------------------------------------------------------
 
-* Login to Frontend
+* Login to `Frontend <frontend.html>`_
 * Check HDFS by ```hadoop dfs -ls```
 
 TeraGen
