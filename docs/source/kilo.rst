@@ -19,7 +19,9 @@ You will see instances or images on Kilo now by nova client tools, e.g. nova lis
 Start a New Instance
 ---------------------
 
-nova boot --image Ubuntu-14.04-64 --key-name KEYNAME --flavor m1.small $USER-first-instance --nic net-id=5120857b-c49c-4c05-a37e-8bee0b7df776
+.. code:
+
+    nova boot --image Ubuntu-14.04-64 --key-name KEYNAME --flavor m1.small $USER-first-instance --nic net-id=5120857b-c49c-4c05-a37e-8bee0b7df776
 
 .. note: replace KEYNAME with your registered key name. Replace other options e.g. image or flavor as you wish.
 
