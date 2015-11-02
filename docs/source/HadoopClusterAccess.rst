@@ -59,3 +59,10 @@ and
    hadoop jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples*.jar
 
 for more details.
+
+Sharing Files by `share` directory
+-------------------------------------------------------------------------------
+
+``share`` directory is provided in the $HOME directory by glusterFS. Any files 
+in this directory is shared between frontend{1,2,3} nodes in the Hadoop cluster.
+
