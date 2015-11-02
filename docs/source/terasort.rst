@@ -11,7 +11,7 @@ with 910 x 4 dual-core processors, but sorting 494.6 terabytes was done in the
 same amount of time in 2013 with 2100 nodes x hexa-core processors. The
 combination of hardware setup and software configuration does accelerate the
 performance of Hadoop and TeraSort program is used to measure the performance
-of your Hadoop.  There are three packages to conduct the benchmark: TeraGen
+of a Hadoop system. There are three packages to conduct the benchmark: TeraGen
 which generates input data given by the size, TeraSort which sorts the
 input data files, and TeraValidate which validates the results. The elapsed
 time of TeraSort is the measure of the performance of Hadoop.
