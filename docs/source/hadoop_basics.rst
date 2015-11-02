@@ -47,6 +47,6 @@ Hadoop built-in example
 Hadoop Web Interface
 ------------------------
 
-- ResourceManager: 8088
-- NameNode: 50070
+- ResourceManager: 8088 e.g. http://149.165.159.121:8088/cluster
+- NameNode: 50070 e.g. http://149.165.159.149:50070/
 - JobHistoryServer: 19888
