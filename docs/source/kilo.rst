@@ -1,3 +1,5 @@
+.. _openstack_kilo:
+
 OpenStack Kilo FutureSystems
 ==============================
 
