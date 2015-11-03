@@ -5,16 +5,66 @@ Apache Hadoop Basics
 
 There are basic commands and web interfaces that you will frequently use while you run jobs on Apache Hadoop. This tutorial introduces the basic commands and web interfaces. You can find more details on the web e.g. `Hadoop Basics by HortonWorks <http://hortonworks.com/wp-content/uploads/downloads/2013/07/Hortonworks.ApacheHadoopBasics.v1.0.pdf>`_, or `Hadoop Tutorial by TutorialPoint.com <http://www.tutorialspoint.com/hadoop/>`_
 
-Hadoop command
+Hadoop commands
 ---------------
 
 - Hadoop fs
    - ls
+      - ``hadoop fs -ls FILENAME`` (-ls works like ls command to see a list of directory contents)
    - cat
+      - ``hadoop fs -cat FILENAME`` (-cat works like cat command to see the contents of the file)
    - rm
+      - ``hadoop fs -rmr DIRECTORY_NAME_TO_DELETE`` (-rmr works like rm -r command to delete directories and the files recursively
 
 - hadoop jar
-   - run jar
+   - run a jar file which is a Java package e.g. WordCount is in hadoop-mapreduce-examples-2.7.1.jar
+   
+- Other commands related to file system can be found by:
+
+.. code::
+
+    $ hadoop fs
+    Usage: hadoop fs [generic options]
+      [-appendToFile <localsrc> ... <dst>]
+    	     [-cat [-ignoreCrc] <src> ...]
+    [-checksum <src> ...]
+    [-chgrp [-R] GROUP PATH...]
+    [-chmod [-R] <MODE[,MODE]... | OCTALMODE> PATH...]
+    [-chown [-R] [OWNER][:[GROUP]] PATH...]
+    [-copyFromLocal [-f] [-p] [-l] <localsrc> ... <dst>]
+    [-copyToLocal [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+    [-count [-q] [-h] <path> ...]
+    [-cp [-f] [-p | -p[topax]] <src> ... <dst>]
+    [-createSnapshot <snapshotDir> [<snapshotName>]]
+    [-deleteSnapshot <snapshotDir> <snapshotName>]
+    [-df [-h] [<path> ...]]
+    [-du [-s] [-h] <path> ...]
+    [-expunge]
+    [-find <path> ... <expression> ...]
+    [-get [-p] [-ignoreCrc] [-crc] <src> ... <localdst>]
+    [-getfacl [-R] <path>]
+    [-getfattr [-R] {-n name | -d} [-e en] <path>]
+    [-getmerge [-nl] <src> <localdst>]
+    [-help [cmd ...]]
+    [-ls [-d] [-h] [-R] [<path> ...]]
+    [-mkdir [-p] <path> ...]
+    [-moveFromLocal <localsrc> ... <dst>]
+    [-moveToLocal <src> <localdst>]
+    [-mv <src> ... <dst>]
+    [-put [-f] [-p] [-l] <localsrc> ... <dst>]
+    [-renameSnapshot <snapshotDir> <oldName> <newName>]
+    [-rm [-f] [-r|-R] [-skipTrash] <src> ...]
+    [-rmdir [--ignore-fail-on-non-empty] <dir> ...]
+    [-setfacl [-R] [{-b|-k} {-m|-x <acl_spec>} <path>]|[--set <acl_spec> <path>]]
+    [-setfattr {-n name [-v value] | -x name} <path>]
+    [-setrep [-R] [-w] <rep> <path> ...]
+    [-stat [format] <path> ...]
+    [-tail [-f] <file>]
+    [-test -[defsz] <path>]
+    [-text [-ignoreCrc] <src> ...]
+    [-touchz <path> ...]
+    [-truncate [-w] <length> <path> ...]
+    [-usage [cmd ...]]
 
 Hadoop built-in example
 ----------------------------
