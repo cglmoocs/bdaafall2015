@@ -10,6 +10,11 @@ Virtual Image Name
 
 nist-nbis-03Nov2015
 
+Minimum Flavor
+----------------
+
+m1.small
+
 Special Database 27A
 ---------------------
 
