@@ -32,7 +32,7 @@ If you need to use the latest OpenStack Cloud, consider to use OpenStack Kilo on
 The software of the supported projects are available in OpenStack Kilo as virtual machine images.
 You may want to start your project by creating your own virtual instance with the image. The details are:
 
-: :ref:`OpenStack Kilo <openstack_kilo>`
+* :ref:`OpenStack Kilo <openstack_kilo>`
 
 Sample Software Projects or Term Paper
 -------------------------------------------------------------------------------
