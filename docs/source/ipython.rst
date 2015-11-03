@@ -1,3 +1,5 @@
+.. _ipynb:
+
 IPython Notebook
 ======================
 
