@@ -16,6 +16,8 @@ Kilo account information is enabled by:
 
 You will see instances or images on Kilo now by nova client tools, e.g. nova list.
 
+.. note:: If you do not have the ``openrc.sh`` under kilo directory, please notify us by bdaacoursehelp@googlegroups.com
+
 Start a New Instance
 ---------------------
 
