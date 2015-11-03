@@ -19,6 +19,27 @@ Hadoop commands
 - hadoop jar
    - run a jar file which is a Java package e.g. WordCount is in hadoop-mapreduce-examples-2.7.1.jar
    
+- hadoop job
+   - job related commands e.g. list, status, or kill a job
+
+.. code::
+
+      Usage: CLI <command> <args>
+      [-submit <job-file>]
+      [-status <job-id>]
+      [-counter <job-id> <group-name> <counter-name>]
+      [-kill <job-id>]
+      [-set-priority <job-id> <priority>]. Valid values for priorities are: VERY_HIGH HIGH NORMAL LOW VERY_LOW
+      [-events <job-id> <from-event-#> <#-of-events>]
+      [-history <jobHistoryFile>]
+      [-list [all]]
+      [-list-active-trackers]
+      [-list-blacklisted-trackers]
+      [-list-attempt-ids <job-id> <task-type> <task-state>]. Valid values for <task-type> are REDUCE MAP. Valid values for <task-state> are running, completed
+      [-kill-task <task-attempt-id>]
+      [-fail-task <task-attempt-id>]
+      [-logs <job-id> <task-attempt-id>]
+   
 - Other commands related to file system can be found by:
 
 .. code::
