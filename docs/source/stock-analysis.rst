@@ -1,3 +1,5 @@
+.. _stock_analysis:
+
 Stock Analysis
 ==================
 
