@@ -22,6 +22,7 @@ Supported Software Projects
 
 * :ref:`TeraSort Hadoop Benchmark <terasort>`
 * :ref:`Stock Analysis with MPI <stock_analysis>`
+* :ref:`IPython Notebook <ipynb>`
 
 OpenStack Kilo FutureSystems (IaaS)
 -------------------------------------------------------------------------------
