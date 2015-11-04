@@ -5,21 +5,22 @@ Distributed I/O Benchmark of HDFS
 
 DFSIO is a built-in benchmark tool for HDFS I/O test. The jar file can be found at /opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.1.jar. 
 
-Default Directory
-----------------------
+Base Directory to Store Test Results
+-----------------------------------------------
 
 ``/benchmarks/TestDFSIO``
 
-Use fs commands to see the contents e.g. 
+If there are outputs, use fs commands to see the contents e.g. 
 
 .. code::
 
      hadoop fs -cat /benchmarks/TestDFSIO/io_write/part*
 
-.. https://support.pivotal.io/hc/en-us/articles/200864057-Running-DFSIO-mapreduce-benchmark-test
 
 Run Write/Read
 ---------------
+
+Read or Write test can be done by:
 
 .. code::
 
@@ -31,10 +32,12 @@ OR
 
     hadoop jar /opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.1.jar TestDFSIO -read -nrFiles 16 -fileSize 1GB -resFile /tmp/$USER-dfsio-read.txt
 
+.. note:: Change the number of files and the size of files to find better throughput.
+
 Clean Up
 ---------
 
-This command deletes files on the output directory (/benchmakrs/TestDFSIO) on HDFS.
+Don't forget to clean up test results after the completion, otherwise available storage space will be consumsed by the benchmark output files. The following command deletes files on the output directory (/benchmakrs/TestDFSIO) on HDFS.
 
 .. code::
 
