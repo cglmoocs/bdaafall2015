@@ -24,8 +24,9 @@ Supported Software Projects
 * :ref:`Stock Analysis with MPI <stock_analysis>`
 * :ref:`IPython Notebook <ipynb>`
 * :ref:`NIST NBIS <nist_nbis>`
-* :ref:`DFSIO Benchmark <dfsio>`
-* :ref:`MRBench Benchmark <mrbench>`
+* :ref:`DFSIO Distributed I/O Benchmark <dfsio>`
+* :ref:`MRBench MapReduce Benchmark <mrbench>`
+* :ref:`NNBench NameNode Benchmark <nnbench>`
 
 OpenStack Kilo FutureSystems (IaaS)
 -------------------------------------------------------------------------------
