@@ -1,3 +1,5 @@
+.. _mrbench:
+
 Mrbench: A benchmark for mapreduce framework
 ===============================================
 
