@@ -25,6 +25,7 @@ Supported Software Projects
 * :ref:`IPython Notebook <ipynb>`
 * :ref:`NIST NBIS <nist_nbis>`
 * :ref:`DFSIO Benchmark <dfsio>`
+* :ref: `MRBench Benchmark <mrbench>`
 
 OpenStack Kilo FutureSystems (IaaS)
 -------------------------------------------------------------------------------
