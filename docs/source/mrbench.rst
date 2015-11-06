@@ -1,7 +1,18 @@
 .. _mrbench:
 
-Mrbench: A benchmark for mapreduce framework
+MRBench: A benchmark for mapreduce framework
 ===============================================
+
+Sample Run
+-----------
+
+There are a few options you can change, but a simple run wihtout options will work.
+
+.. code::
+
+     $ hadoop jar /opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.1.jar mrbench -baseDir /user/$USER/MRBench
+
+To change the number of iterations, maps or reducers, use the options below.
 
 Options
 ----------
