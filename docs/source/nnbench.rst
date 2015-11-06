@@ -3,7 +3,24 @@
 NNBench - NameNode benchmark
 =============================
 
-The NNBench runs a test for NameNode on a hadoop cluster.
+In Hadoop clusters, the NameNode keeps the directory tree of all files in HDFS and locations of the files across the multiple DataNodes and the NNBench runs a test for the NameNode with some load. The NNBench NameNode benchmark is useful to check NameNode configuration with its hardware before running anything in production.
+
+Sample Run of NNBench
+-------------------------
+
+.. code::
+
+     hadoop jar /opt/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.1.jar nnbench -operation create_write -baseDir /user/$USER/NNBench
+
+This command will create a file with 1 map and 1 reducer. You can change the options to increase the number of files, maps or reducers. For details, see the available options below.
+
+Main Operations
+----------------
+
+* create_write: is an operation you should run at first. It creates a file(s) to run a test.
+* open_read
+* rename
+* delete
 
 Available Options
 -------------------
@@ -24,3 +41,4 @@ Available Options
     -baseDir <base DFS path. default is /becnhmarks/NNBench. This is not mandatory>
     -readFileAfterOpen <true or false. if true, it reads the file and reports the average time to read. This is valid with the open_read operation. default is false. This is not mandatory>
     -help: Display the help statement
+
