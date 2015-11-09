@@ -3,10 +3,10 @@
 Hadoop Cluster Frontend
 ================================
 
-IP Address
------------
+IP Address (Updated on 11/09/2015)
+---------------------------------------
 
-149.165.159.135
+149.165.159.160
 
 .. note:: The IP address may be changed without notice. Contact course AIs, if it's not accessible.
 
