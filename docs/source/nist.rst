@@ -34,3 +34,8 @@ Start to a NIST-NBIS Instance Example
     nova boot --image nist-nbis-03Nov2015 --flavor m1.small --key-name YOURKEY $USER-NIST-NBIS --nic net-id=5120857b-c49c-4c05-a37e-8bee0b7df776
 
 .. note:: Replace YOURKEY with your registered key name. Change other parameters like a flavor or an instance name, as you wish.
+
+FAQs
+-----
+
+Having problems of using OpenStack Kilo? Find :ref:`FAQs <openstack_kilo>`
