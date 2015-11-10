@@ -22,7 +22,8 @@ With your key and network information, you can start a new virtual instance with
 
 .. code::
 
-     nova boot --image stock-analysis-02Nov2015 --flavor m1.small --key-name YOURKEY $USER-stock-analysis --nic net-id=5120857b-c49c-4c05-a37e-8bee0b7df776
+      NETID=`nova network-list | grep $OS_TENANT_NAME-net | awk {'print $2'}`
+      nova boot --image stock-analysis-02Nov2015 --flavor m1.small --key-name YOURKEY $USER-stock-analysis --nic net-id=$NETID
 
 .. note::  Replace YOURKEY with your registered keyname. $USER-stock-analysis is a label to your instance, you can change the name.
 
