@@ -65,3 +65,15 @@ OR
 .. note::
 
      Replace HOSTNAME_OR_IPADDRESS with your destination
+
+Q. I am seeing the following error when I run ``nova`` command:
+
+.. code::
+
+    You must provide a username or user id via --os-username, --os-user-id, env[OS_USERNAME] or env[OS_USER_ID]
+
+A. You see the error because the nova client does not recognize you. Import your credential on india by:
+
+    source ~/.cloudmesh/clouds/india/kilo/openrc.sh
+
+This file contains your os-username, etc. regarding your account and the ``source`` command imports and keeps these information while your ssh session alive.
