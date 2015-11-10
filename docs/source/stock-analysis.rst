@@ -26,5 +26,8 @@ With your key and network information, you can start a new virtual instance with
 
 .. note::  Replace YOURKEY with your registered keyname. $USER-stock-analysis is a label to your instance, you can change the name.
 
-.. note:: Having problems of using OpenStack Kilo? Find :ref:`FAQs <openstack_kilo>`
+FAQs
+-----
+
+Having problems of using OpenStack Kilo? Find :ref:`FAQs <openstack_kilo>`
 
