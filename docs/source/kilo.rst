@@ -23,7 +23,8 @@ Start a New Instance
 
 .. code::
 
-    nova boot --image Ubuntu-14.04-64 --key-name KEYNAME --flavor m1.small $USER-first-instance --nic net-id=5120857b-c49c-4c05-a37e-8bee0b7df776
+    NETID=`nova network-list | grep $OS_TENANT_NAME-net | awk {'print $2'}`
+    nova boot --image Ubuntu-14.04-64 --key-name KEYNAME --flavor m1.small $USER-first-instance --nic net-id=$NETID
 
 .. note:: replace KEYNAME with your registered key name. Replace other options e.g. image or flavor as you wish.
 
