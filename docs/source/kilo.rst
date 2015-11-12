@@ -3,12 +3,12 @@
 OpenStack Kilo FutureSystems
 ==============================
 
-OpenStack Kilo is available on FutureSystems. Here are instructions how to get access to OpenStack Kilo FutureSystems.
+OpenStack Kilo is now available on FutureSystems. The combination of the new hardware configuration and the latest OpenStack release Kilo provides more features and better perfomance os using OpenStack Cloud. Also, there are some changes you need to know before use. Here are instructions how to get access to OpenStack Kilo FutureSystems.
 
 Nova Client on India
 ---------------------
 
-Kilo account information is enabled by:
+The first step to use OpenStack Kilo is loading your account information for Kilo. The Kilo account information is enabled by:
 
 .. code::
 
@@ -21,12 +21,68 @@ You will see instances or images on Kilo now by nova client tools, e.g. nova lis
 Start a New Instance
 ---------------------
 
+Starting a new instance is not difficult but requres a few steps like keypair registration and floating ip association. The simple instructions will be provided in this page.
+
+SSH Key Pair Registraion
+""""""""""""""""""""""""""""
+
+If this is a first time to run a instance, the keypair registration is required. We assume you have a key registered on India Juno which is a previous release of OpenStack. Let's register your key on OpenStack Kilo. Juno and Kilo are separated clouds so we need to register your key on both side.
+
+.. note:: If you don't have one, don't worry. It is easy to create a new one. Please follow the instructions here. 
+
+.. code::
+
+    nova keypair-add --pub-key $HOME/ssh/id_rsa.pub $USER-india-key
+
+Once you register your key, you can confirm the registration by::
+
+    nova keypair-list
+
+Let's continue to start a VM in the next section.
+
+.. tip:: The following commands will create a new SSH key pair. Provide passphrase when prompts appear.
+ 
+    ssh-keygen -t rsa -C $USER-india-key
+
+Start a VM Instance
+""""""""""""""""""""""""
+
+The ``nova boot`` simple command will start a VM instance. Note that ``NETID`` is required on OpenStack Kilo which is different from OpenStack Juno.
+   
 .. code::
 
     NETID=`nova network-list | grep $OS_TENANT_NAME-net | awk {'print $2'}`
-    nova boot --image Ubuntu-14.04-64 --key-name KEYNAME --flavor m1.small $USER-first-instance --nic net-id=$NETID
+    nova boot --image Ubuntu-14.04-64 --key-name $USER-india-key --flavor m1.small $USER-first-instance --nic net-id=$NETID
 
-.. note:: replace KEYNAME with your registered key name. Replace other options e.g. image or flavor as you wish.
+.. note:: replace $USER-india-key if you have a different name for your registered key. Replace other options e.g. image or flavor as you wish.
+
+Floating IP Address
+""""""""""""""""""""""""""
+
+Now your VM instance is up and running but can't be accessible because it only has an internal IP address. We will associate a floating IP address here to get SSH access to a VM instance.
+
+.. code::
+
+    nova floating-ip-create ext-net
+    +--------------------------------------+-----------------+-----------+----------+---------+
+    | Id                                   | IP              | Server Id | Fixed IP | Pool    |
+    +--------------------------------------+-----------------+-----------+----------+---------+
+    | 030bf69d-88a4-41b6-90c5-9c6e7d5be442 | 149.165.159.112 | -         | -        | ext-net |
+    +--------------------------------------+-----------------+-----------+----------+---------+
+
+Now we have a IP address to assign to a VM instance. In this example, we will associate ``149.165.159.112`` to our ``$USER-first-instance`` VM instance by.
+
+.. code::
+
+    nova floating-ip-associate $USER-first-instance 149.165.159.112 
+
+Once you completed this step, you are now able to SSH into your VM instance.
+
+.. code::
+
+    ssh ubuntu@149.165.159.112
+
+.. note:: ``ubuntu`` is login name your your VM if you start a VM with Ubuntu image. Try other names if you used other distributions like CentOS or CoreOS. For example, ``centos`` is for ``CentOS`` and ``core`` is for ``CoreOS`` image.
 
 Horizon Web Interface
 --------------------------
@@ -35,6 +91,19 @@ Openstack provides a web interface to manage cloud resources easily. Usage repor
 
 * Use your OS_USERNAME and OS_PASSWORD to login.  ``~/.cloudmesh/clouds/india/kilo/openrc.sh`` contains your ``OS_`` variables.
 * https://openstack.futuresystems.org/horizon/project/
+
+Termination of VM Instance
+-----------------------------
+
+If you completed your work on your VM instance, you may terminate your VM and release a floating IP address associated with. For example, we terminate our first instance and the IP address by:
+
+.. code::
+
+    nova delete $USER-first-intance
+    nova floating-ip-delete 149.165.159.112
+    
+
+
 
 FAQ
 ------
